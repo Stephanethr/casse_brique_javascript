@@ -97,8 +97,5 @@ project/
 - Ajouter des animations et sons pour améliorer l'expérience de jeu.
 
 ## Auteurs
-- **Nom de l'auteur** - Développeur principal
-
-## Licence
-Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informations.
+- **Nom de l'auteur** - Thiry Stéphane
 
