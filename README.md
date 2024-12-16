@@ -56,12 +56,17 @@ project/
    pip install -r requirements.txt
    ```
 
-4. Lancez l'application Flask :
+4. Créer un fichier `.env` à la racine du projet avec les variables d'environnement suivantes :
+   ```
+    SECRET_KEY=your_secret_key
+    ```
+   
+5. Lancez l'application Flask :
    ```bash
    python app.py
    ```
 
-5. Accédez à l'application dans votre navigateur à l'adresse :
+6. Accédez à l'application dans votre navigateur à l'adresse :
    ```
    http://127.0.0.1:5000
    ```
