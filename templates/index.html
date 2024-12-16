@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casse-brique en JavaScript</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <h1>Bienvenue, {{ username }} !</h1>
+    <p>Votre meilleur score : {{ score }}</p>
+    <button onclick="logout()">Déconnexion</button>
+
+    <canvas id="myCanvas" width="480" height="320"></canvas>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    <script>
+        const updateScoreUrl = "{{ url_for('update_score') }}";
+    </script>
+</body>
+
+</html>
